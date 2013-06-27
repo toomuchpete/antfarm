@@ -1,7 +1,8 @@
 import libtcodpy as libtcod
 
 class Ant:
-    def __init__(self, x, y, char, color):
+    def __init__(self, x, y, char, color, name='Ant-nonymous'):
+        self.name = name
         self.x = x
         self.y = y
         self.char = char
